@@ -1,0 +1,1 @@
+Re-read all source files in docs/sources/. Check for the most recent figures available and update docs/evs_adoption.md — including the registration table, YoY growth, notable inflection points, and any commentary — to reflect the latest data. Flag any inconsistencies between sources or figures that appear outdated.

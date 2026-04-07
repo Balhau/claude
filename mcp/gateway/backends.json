@@ -1,0 +1,7 @@
+[
+  {
+    "name": "names",
+    "command": "python",
+    "args": ["/servers/names/server.py"]
+  }
+]

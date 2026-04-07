@@ -1,0 +1,13 @@
+services:
+  gateway:
+    build:
+      context: .
+      dockerfile: gateway/Dockerfile
+    ports:
+      - "8080:8000"
+    environment:
+      # Override backends at runtime (optional — falls back to backends.json)
+      BACKENDS_CONFIG: '[{"name":"names","command":"python","args":["/servers/names/server.py"]}]'
+      PORT: "8000"
+      FASTMCP_HOST: "0.0.0.0"
+      FASTMCP_PORT: "8000"

@@ -1,0 +1,1 @@
+Fetch the latest EU EV registration data from $ARGUMENTS and update the corresponding file in docs/sources/ with the new figures. If a source file doesn't exist yet, create one using the same structure as existing files in docs/sources/. Cross-reference the fetched data against docs/evs_adoption.md and flag any inconsistencies or updates needed.
